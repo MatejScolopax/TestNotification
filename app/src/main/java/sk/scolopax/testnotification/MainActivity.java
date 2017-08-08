@@ -47,7 +47,7 @@ public class MainActivity extends Activity {
             NotificationCompat.Builder mBuilder =
                     (NotificationCompat.Builder) new NotificationCompat.Builder(this)
                             .setSmallIcon(R.mipmap.ic_launcher)
-                            .setContentTitle("My notification")
+                            .setContentTitle("Hello hello, this is notification")
                             .setContentText("Hello World!");
 
             Intent resultIntent = new Intent(this, MainActivity.class);
