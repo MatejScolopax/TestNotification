@@ -48,7 +48,7 @@ public class MainActivity extends Activity {
                     (NotificationCompat.Builder) new NotificationCompat.Builder(this)
                             .setSmallIcon(R.mipmap.ic_launcher)
                             .setContentTitle("Hello hello, this is notification")
-                            .setContentText("Hello World!");
+                            .setContentText("Text of natification is simple.");
 
             Intent resultIntent = new Intent(this, MainActivity.class);
 
@@ -63,9 +63,9 @@ public class MainActivity extends Activity {
         android.support.v4.app.NotificationCompat.InboxStyle inboxStyle =
                 new NotificationCompat.InboxStyle();
         String[] events = new String[6];
-        events[0] = "dasa";
-        events[1] = "polo";
-        events[2] = "kolo";
+        events[0] = "Perer";
+        events[1] = "Matej";
+        events[2] = "kkujira";
         events[3] = "asap";
         events[4] = "loki";
         events[5] = "tom";
